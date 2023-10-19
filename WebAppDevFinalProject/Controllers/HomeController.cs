@@ -10,6 +10,7 @@ public class HomeController : Controller
 
     public HomeController(ILogger<HomeController> logger)
     {
+        //made changes to home controller for feature-3
         _logger = logger;
     }
 
